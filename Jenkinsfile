@@ -4,6 +4,7 @@ pipeline {
     stage('stage1') {
       steps {
         sh 'date'
+        sh 'date'
       }
     }
 
